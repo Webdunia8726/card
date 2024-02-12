@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Animation</title>
+<style>
+  body{
+    background-color: black;
+  }
+    .card {
+        width: 200px;
+        height: 300px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        transition: transform 0.3s ease;
+        margin-top: 100px;
+        border-width: 10px;
+        border: 5px solid hotpink;
+    }
+
+   
+
+    .card-content {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-content {
+        transform: translateY(0); /* Slide up the content on hover */
+    }
+    h2,p{
+      padding: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>hello</h1>
+    <div class="card-content" style="background-color: rgb(231, 21, 21) ; color: #f0f0f0;">
+        <!-- New content that appears upon hovering -->
+        <h2>New Content</h2>
+        
+        <p>This is the new content that appears when you hover over the card.</p>
+    </div>
+</div>
+
+</body>
+</html>

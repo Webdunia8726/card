@@ -1,0 +1,101 @@
+.topnav{
+    background-color: black;
+    padding-top: 40px;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    color: red !important;
+}
+
+.move-up {
+    transition: transform 0.3s ease;
+    border: none;
+    color: white;
+    width: 180px;
+    background-color: #9ca704;
+    border-radius: 20px;
+    font-size: larger;
+
+  }
+  .move-up:hover {
+    background-color:red;
+    transform: translateY(-5px);
+  }
+  .card-img-top{
+    height: 200px;
+    padding: 20px;
+  }
+  .card{
+    transition: transform 0.3s ease;
+
+  }
+  .card:hover{
+    transform: translateY(-5px);
+
+    background-color:black;
+    color: white;
+  }
+  .redbtn{
+    transition: transform 0.3s ease;
+    border: none;
+    color: white;
+    width: 180px;
+    background-color:red;
+    border-radius: 20px;
+    font-size: larger;
+  }
+  .redbtn:hover{
+   transform: translateY(-5px);
+    background-color: red;
+    color: white;
+
+  }
+  .backgroundimage{
+    width: 100%;
+    height: 300px; /* Set height for demonstration */
+    background-image: url('burgerback.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white; /* Optional: Set text color to be visible against blurred background */
+  }
+  .blur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px); /* Adjust blur level here */
+    -webkit-backdrop-filter: blur(5px); /* For Safari */
+  }
+  .content {
+    position: relative;
+    padding: 20px; /* Optional: Add padding to content for better readability */
+  }
+  .redbg{
+    background-color: rgb(221, 29, 29);
+  }
+  .burgerpngshadow{
+    filter: drop-shadow(1px 2px 30px rgb(243, 227, 231));
+    border: none;
+  }
+  .colorred{
+    color: red !important;
+  }
+ 
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  .form-control{
+    border-radius: 20px;
+    background-color: rgb(177, 168, 168);
+}
+.footer{
+    padding: 20px;
+    background-color: #F7C04A;
+}
